@@ -97,7 +97,13 @@ hr {
 .referral img {
   height: 250px;
   float: right;
-  margin-right: 75px;
+  /*margin-right: 75px;*/
+}
+
+.referral-name {
+  color: #000;
+  font-size: 14px;
+  margin-left: 15px;
 }
 
 /* Personal Section*/
