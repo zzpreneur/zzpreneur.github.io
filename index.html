@@ -6,6 +6,13 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
+    <!-- Nivo Lightbox -->
+    <link rel="stylesheet" href="css/nivo-lightbox.css" type="text/css" />
+    <link rel="stylesheet" href="css/themes/default/default.css" type="text/css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="js/nivo-lightbox.min.js"></script>
+
+    <!-- Google fonts -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700,900' rel='stylesheet' type='text/css'>
   </head>
   <body>
@@ -100,27 +107,27 @@
 
       <div class="content-container">
       <h1 class="section-headlines">Ugly is part of the process</h1>
-        <p>If you're looking for a kick ass person who thrives on getting shit, having fun and has no problem being wrong and learning, then I'm your guy.</p>
+        <p>If you're looking for a kick ass person who thrives on getting shit done, having fun and has no problem being wrong and learning, then I'm your guy.</p>
         <ul class="portfolio-pieces">
           <h2 class="section-subtitles">BeNoticed</h2>
           <p>From a sketch on the back of a napkin to launch, I coded, designed, and programmed the entire application.</p>
-          <li><img src="img/BNV1-Home-Page-195x333.png"></li>
-          <li><img src="img/BNV2-Home-Page-195x588.png"></li>
-          <li><img src="img/BNV3-Home-Page-195x252.png"></li>
+          <li><a href="img/BNV1-FULL-Home-Page.png" data-lightbox-gallery="beNoticed" title="This is an image title"><img src="img/BNV1-Home-Page-195x333.png"></a></li>
+          <li><a href="img/BNV2-FULL-Home-Page.png" data-lightbox-gallery="beNoticed" title="This is an image title"><img src="img/BNV2-Home-Page-195x588.png"></a></li>
+          <li><a href="img/BNV3-FULL-Home-Page.png"data-lightbox-gallery="beNoticed" title="This is an image title"><img src="img/BNV3-Home-Page-195x252.png"></a></li>
 
          
         
           <h2 class="section-subtitles">SiteVibes</h2>
           <p>I was brought in to take SiteVibes off the shelf and bring it to market. I was responsible for product design and business development.</p>
-          <li><img src="img/SV1-Trending-Page-195x1342.png"></li>
-          <li><img src="img/SV2-Trending-Page-195x372.png"></li>
-          <li><img src="img/SV3-Trending-Page-195x372.png"></li>
+          <a href="img/SV1-FULL-Trending-Page.png" data-lightbox-gallery="siteVibes" title="This is an image title"><li><img src="img/SV1-Trending-Page-195x1342.png"></li></a>
+          <a href="img/SV2-FULL-Trending-Page.png" data-lightbox-gallery="siteVibes" title="This is an image title"><li><img src="img/SV2-Trending-Page-195x372.png"></li></a>
+          <a href="img/SV3-FULL-Trending-Page.png" data-lightbox-gallery="siteVibes" title="This is an image title"><li><img src="img/SV3-Trending-Page-195x372.png"></li></a>
         
           <h2 class="section-subtitles">Writing</h2>
           <p>Words matter. I designed the landing page for SiteVibes and used Optimizley to A/B copy.</p>
-          <li><img src="img/SV1-Landing-Page-195-152.png"></li>
-          <li><img src="img/SV2-Landing-Page-195-152.png"></li>
-          <li><img src="img/SV3-Landing-Page-195-152.png"></li>
+          <a href="img/SV1-FULL-Landing-Page.png" data-lightbox-gallery="copyWriting" title="This is an image title"><li><img src="img/SV1-Landing-Page-195-152.png"></li></a>
+          <a href="img/SV2-FULL-Landing-Page.png" data-lightbox-gallery="copyWriting" title="This is an image title"><li><img src="img/SV2-Landing-Page-195-152.png"></li></a>
+          <a href="img/SV3-FULL-Landing-Page.png" data-lightbox-gallery="copyWriting" title="This is an image title"><li><img src="img/SV3-Landing-Page-195-152.png"></li></a>
         </ul>
       </div>
 
@@ -141,10 +148,9 @@
         <ul class="portfolio-pieces">
           <h2 class="section-subtitles">Music</h2>
           <p>From a sketch on the back of a napkin to launch, I brought BeNoticed to life. I designed and programmed the entire application. </p>
-          <!-- <h4>BeNoticed</h4> -->
-          <li><img src="img/BNV1-Home-Page-195x333.png"></li>
-          <li><img src="img/BNV2-Home-Page-195x588.png"></li>
-          <li><img src="img/BNV3-Home-Page-195x252.png"></li>
+          <li><img src="img/Rap-Album-195x187.png"></li>
+          <li><img src="img/Electronic-Album-195x187"></li>
+          <li><img src="img/Folk-Album-195x187"></li>
         
           <h2 class="section-subtitles">Brewing</h2>
           <p>As much as I love working on my computer, sometimes I just have to get away.</p>
@@ -183,5 +189,10 @@
         </footer>
       </div>
     </div>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('a').nivoLightbox();
+      });
+    </script>
   </body>
 </html>
