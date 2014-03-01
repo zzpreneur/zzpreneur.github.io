@@ -156,3 +156,24 @@ footer li {
   display: inline;
   margin-right: 15px;
 }
+
+/* Basecamp Screenshots */
+
+.basecamp-screenshots {
+  /*background-color: red;*/
+  margin-bottom: 50px;
+}
+
+.basecamp-screenshots img {
+  -webkit-box-shadow: 2px 2px 2px 2px #c0c0c0;
+  box-shadow: 2px 2px 2px 2px #c0c0c0;
+  margin-left: 13px;
+}
+
+.basecamp-screenshots p {
+ margin-bottom: 20px;
+}
+
+.basecamp-screenshots .center-BC-img{
+  margin-left: 9%;
+}
