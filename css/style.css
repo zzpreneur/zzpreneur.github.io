@@ -160,8 +160,7 @@ footer li {
 /* Basecamp Screenshots */
 
 .basecamp-screenshots {
-  /*background-color: red;*/
-  margin-bottom: 50px;
+  margin: 35px 0;
 }
 
 .basecamp-screenshots img {
