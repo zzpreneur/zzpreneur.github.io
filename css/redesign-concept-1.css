@@ -1,0 +1,65 @@
+
+/* Universal */
+h4 {
+  margin: 10px;
+}
+
+ul {
+   padding-left: 20px;
+}
+
+
+hr {
+  margin: 0 !important;
+}
+
+img {
+  width: 70px;
+}
+
+/* Textarea */
+#writing-area textarea {
+ float: left;
+ width: 71%;
+ height: 600px;
+ border: none;
+ border-right: 2px #eee solid;
+ outline: none;
+ font-size: 20px;
+ line-height: 45px;
+ padding: 5px;
+
+}
+
+/* Sidebar */
+#sidebar-tools {
+  width: 27%;
+  float: right;
+}
+
+#tools li.tools {
+  display: inline-block;
+}
+
+p.tool-list {
+  display: inline-block;
+  width: 33%;
+  font-size: 14px !important;
+  margin: 0;
+}
+
+li.collaborator {
+  display: inline-block;  
+}
+
+p.verison-list {
+  font-size: 14px !important;
+  margin: 0;
+}
+
+
+.view-more-cta {
+  margin-left: 16% !important;
+}
+
+

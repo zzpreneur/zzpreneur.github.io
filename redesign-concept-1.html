@@ -4,101 +4,48 @@
   <head>
     <title>Zach Zuber - Basecamp's next team member</title>
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/redesign-concept-1.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-
     <!-- Google fonts -->
-<!--     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700,900' rel='stylesheet' type='text/css'> -->
-
-    <style type="text/css">
-      #writing-area input{
-        margin: 20px 0 0 0;
-        width: 700px;
-        /*border: none;*/
-        font-size: 22px;
-        outline: 0;
-        word-wrap:break-word;
-      }
-
-      #tools {
-        width: 50%;
-        float: left;
-      }
-
-      #tools li.tools {
-        display: inline-block;
-      }
-
-      p.tool-list {
-        display: inline-block;
-        width: 33%;
-        font-size: 14px !important;
-        margin: 0;
-      }
-
-      #verisons {
-        width: 50%;
-        float: right;
-      }
-
-      #verisons li.collaborator {
-        display: inline-block;  
-      }
-
-       #verisons li.nth-child(odd) {
-        margin-left: 25%;
-        background-color: red;
-      }
-
-      p.verison-list {
-        font-size: 14px !important;
-        margin: 0;
-      }
-      
-      hr {
-        margin: 0;
-      }
-    </style>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700,900' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <div id="page-container">
       <h1>Untitled text document</h1>
-      
-      <div id="tools">
+      <div id="writing-area">
+        <form type="post">
+          <textarea class="editor" placeholder="Start writing here..."></textarea>
+        </form>
+      </div>
+
+      <div id="sidebar-tools">
+        <h4>Collaborators</h4>
+        <ul id="collaborators">
+          <li class="collaborator"><img src="img/Redesign-Person-Icon.png"></li>
+          <li class="collaborator"><img src="img/Redesign-Person-Icon-2.png"></li>
+          <li class="collaborator"><img src="img/Redesign-Person-Icon-3.png"></li>
+          <p class="verison-list view-more-cta">and <a href="#">two more people</a></p>
+        </ul>
+
+        <hr>
+        <h4>Versions</h4>
         <ul>
-          <h4>Tools</h4>
-          <li class="tools"><img src="http://placehold.it/80x80"></li>
-          <li class="tools"><img src="http://placehold.it/80x80"></li>
-          <li class="tools"><img src="http://placehold.it/80x80"></li>
-          <li class="tools"><img src="http://placehold.it/80x80"></li>
+          <li><p class="verison-list">Last updated on <a href="#">March 7</a> by Neal S.</p></li>
+          <li><p class="verison-list">Updated on <a href="#">March 6</a> by Cathy M.</p></li>
+          <li><p class="verison-list">Updated on <a href="#">March 5</a> by Vince C.</p></li>
+          <p class="verison-list view-more-cta">and <a href="#"> ten more versions</a></p>
+        </ul>
+        <hr>
+
+        
+        <h4>Tools</h4>
+        <ul>
           <li><p class="tool-list"><a href="#"> Delete</a></p></li>
           <li><p class="tool-list"><a href="#"> Copy</a></p></li>
           <li><p class="tool-list"><a href="#"> Move</a></p></li>
         </ul>
       </div>
-
-      <div id="verisons">
-        <ul>
-          <h4>Collaborators & Versions</h4>
-          <li class="collaborator"><img src="http://placehold.it/80x80"></li>
-          <li class="collaborator"><img src="http://placehold.it/80x80"></li>
-          <li class="collaborator"><img src="http://placehold.it/80x80"></li>
-          <li class="collaborator"><img src="http://placehold.it/80x80"></li>
-          <li><p class="verison-list">Last updated on <a href="#">March 7</a> by Neal S.</p></li>
-          <li><p class="verison-list">Updated on <a href="#">March 6</a> by Jason F.</p></li>
-          <li><p class="verison-list"><a href="#">View all versions</a></p></li>
-        </ul>
-      </div>
-
-      <div class="clear"></div>
-      <hr>
-
-      <div id="writing-area">
-        <form>
-          <input type="textarea" placeholder="Start writing here..."/>
-        </form>
-      </div>
     </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
   </body>
 </html>
