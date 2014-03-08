@@ -29,10 +29,10 @@ hr {
 
 /* Containers */
 
-/*#page-container {
+#page-container {
   max-width: 960px;
   margin: 0 auto;
-}*/
+}
 
 .content-container {
   max-width: 700px;
@@ -127,11 +127,13 @@ ul.portfolio-pieces {
   box-shadow: 2px 2px 2px 2px #c0c0c0;
 }
 
-#portfolio-pieces li:hover {
+
+
+.portfolio-pieces li:hover {
   cursor: pointer;
 }
 
-#portfolio-pieces li img {
+.portfolio-pieces li img {
   width: 110%;
 }
 
