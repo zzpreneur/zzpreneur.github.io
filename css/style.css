@@ -27,6 +27,18 @@ hr {
   color: #eee !important;   
 }
 
+/* Nav */
+
+#nav {
+  float: right;
+  margin-bottom: 30px;
+}
+
+#nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
 /* Containers */
 
 #page-container {
