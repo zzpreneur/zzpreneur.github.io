@@ -27,6 +27,12 @@ hr {
   color: #eee !important;   
 }
 
+.caption {
+  font-style: italic;
+  font-size: 12px;
+  margin:0 0 0 45%;
+}
+
 /* Nav */
 
 #nav {
