@@ -123,6 +123,28 @@ hr {
   margin-left: 5px;
 }
 
+/* */
+
+#stand-for-something-list li {
+  margin-bottom: 10px;
+  list-style-type:square;
+  font-weight: 300;
+  font-size: 16px;
+
+}
+
+.section-1 {
+  float: left;
+}
+
+
+.section-2 {
+  float: right;
+  margin-right: 50px;
+}
+
+
+
 /* Personal Section*/
 
 ul.personal-section {
@@ -144,8 +166,8 @@ ul.portfolio-pieces {
   -webkit-box-shadow: 2px 2px 2px 2px #c0c0c0;
   box-shadow: 2px 2px 2px 2px #c0c0c0;
 }
-
-
+ 
+/* Portfolio section */
 
 .portfolio-pieces li:hover {
   cursor: pointer;
