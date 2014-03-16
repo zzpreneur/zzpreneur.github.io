@@ -78,13 +78,12 @@ hr {
 
 /* Intro section */
 #intro-section {
-  /*height: 500px;*/
   margin-bottom: 20px;
 }
 
 #intro-content {
   width: 320px;
-  margin-top: 80px;
+  margin-top: 75px;
   float: left;
 }
 
@@ -112,7 +111,9 @@ hr {
 }
 
 .referral img {
-  height: 250px;
+  height: auto;
+  width: auto;
+  max-width: 205px;
   float: right;
   margin-right: 35px;
 }
