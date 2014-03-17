@@ -1,3 +1,19 @@
+/*  # Table of Contents */
+/*----------------------------------------------------------*/
+/* 
+   1.  Site wide styles
+   2.  Navigation
+   3.  Content sections
+   4.  Intro section
+   5.  Referral Section
+   6.  Why I Love Basecamp section
+   7.  Portfolio section 
+   8.  Footer
+
+  
+*/
+/*----------------------------------------------------------*/
+
 /* Universal */
 
 body {
@@ -33,6 +49,17 @@ hr {
   margin:0 0 0 45%;
 }
 
+
+#page-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.content-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 /* Nav */
 
 #nav {
@@ -45,20 +72,8 @@ hr {
   margin-right: 20px;
 }
 
-/* Containers */
 
-#page-container {
-  max-width: 960px;
-  margin: 0 auto;
-}
-
-.content-container {
-  max-width: 700px;
-  margin: 0 auto;
-}
-
-
-/* Section  */
+/* Content section  */
 .section-headlines {
   font-size: 49px;
   text-align: center;
@@ -87,7 +102,6 @@ hr {
   float: left;
 }
 
-
 #intro-section img {
   float: right;
   /*background: blue;*/
@@ -98,7 +112,6 @@ hr {
 .referral {
   width: 100%;
   margin: 35px 0 35px 0;
-  /*background-color: #eee;*/
 }
 
 .referral p {
@@ -124,7 +137,26 @@ hr {
   margin-left: 5px;
 }
 
-/* */
+
+/* Why I love Basecamp section */
+
+.basecamp-screenshots {
+  margin: 35px 0;
+}
+
+.basecamp-screenshots img {
+  -webkit-box-shadow: 2px 2px 2px 2px #c0c0c0;
+  box-shadow: 2px 2px 2px 2px #c0c0c0;
+  margin-left: 13px;
+}
+
+.basecamp-screenshots p {
+ margin-bottom: 20px;
+}
+
+.basecamp-screenshots .center-BC-img{
+  margin-left: 9%;
+}
 
 #stand-for-something-list li {
   margin-bottom: 10px;
@@ -145,14 +177,12 @@ hr {
 }
 
 
-
-/* Personal Section*/
+/* Portfolio section */
 
 ul.personal-section {
   padding-left: 20px;
 }
 
-/* Portfolio section */
 ul.portfolio-pieces {
   margin: 0 0 33.5px 0;
   padding: 0 !important;
@@ -168,8 +198,6 @@ ul.portfolio-pieces {
   box-shadow: 2px 2px 2px 2px #c0c0c0;
 }
  
-/* Portfolio section */
-
 .portfolio-pieces li:hover {
   cursor: pointer;
 }
@@ -183,11 +211,8 @@ ul.portfolio-pieces {
   margin-left: 75px;
   color: #95a5a6;
   font-style: italic;
+  font-size: 16px;
 
-}
-
-.quotes span {
-  margin-left: 350px;
 }
 
 /* Footer */
@@ -195,27 +220,15 @@ footer {
   margin-bottom: 70px;
 }
 
+footer ul {
+  padding-left: 15px !important;
+}
+
 footer li {
   display: inline;
   margin-right: 15px;
 }
 
-/* Basecamp Screenshots */
-
-.basecamp-screenshots {
-  margin: 35px 0;
-}
-
-.basecamp-screenshots img {
-  -webkit-box-shadow: 2px 2px 2px 2px #c0c0c0;
-  box-shadow: 2px 2px 2px 2px #c0c0c0;
-  margin-left: 13px;
-}
-
-.basecamp-screenshots p {
- margin-bottom: 20px;
-}
-
-.basecamp-screenshots .center-BC-img{
-  margin-left: 9%;
+.photos-by {
+  font-size:12px; 
 }
