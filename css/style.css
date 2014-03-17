@@ -212,8 +212,13 @@ ul.portfolio-pieces {
   color: #95a5a6;
   font-style: italic;
   font-size: 16px;
-
 }
+
+.enlarge-image-link {
+  margin-left: 35% !important;
+  font-size: 12px !important;
+}
+
 
 /* Footer */
 footer {
